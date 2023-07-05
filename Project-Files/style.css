@@ -2,18 +2,20 @@ h1,p{
     text-align: center;
 }
 #like-dislike-button button:first-child {
-    background-color: #4CAF50;
+    background-color: #45a049;
     color: white;
 }
 
 #like-dislike-button button:last-child {
-    background-color: #b80918;
+    background-color: #FF5A5A;
     color: white;
+  
 }
 
 #like-dislikte-buttons{
-    margin-top: 30px;
+    margin-top: 50px;
 }
+
 
 #joke-container {
     width: 400px;
@@ -21,4 +23,6 @@ h1,p{
     text-align: center;
     padding: 20px;
     border: 1px solid #ccc;
+    background-color: orange ;
+    padding: 20px;
 }
