@@ -5,6 +5,10 @@ fetch('https://icanhazdadjoke.com/slack')
         let jokes = document.getElementById('joke');
         jokes.innerHTML = jokeText;
     }) 
+    
+    .catch(error => {
+        console.error("Error fetching joke:", error);
+    });
 
 // Event listeners for like, dislike, and refresh buttons
 document.getElementById("like-button").addEventListener("click", function() {
