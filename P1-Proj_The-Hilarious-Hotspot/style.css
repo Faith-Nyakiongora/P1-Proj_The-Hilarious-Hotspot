@@ -4,6 +4,7 @@ body {
     padding: 10px;
     margin: 0px;
     font-size: 16px;
+    Background-color: rgb(163, 179, 161);
 }
 
 h1,
@@ -21,9 +22,7 @@ p{
   
 }
 
-#like-dislikte-buttons{
-    margin-top: 50px;
-}
+
 
 button {
     padding: 5px 15px;
@@ -31,6 +30,7 @@ button {
     border: none;
     cursor: pointer;
     margin-right: 10px;
+    margin-top: 300px
 }
 
 
@@ -40,15 +40,19 @@ button {
     text-align: center;
     padding: 20px;
     border: 1px solid #ccc;
-    background-color: orange ;
+    background-color: rgb(233, 203, 148) ;
     
 }
 
 #page-container {
-    padding-top: 20px;
-    Background-color: darkblue;
+    margin: 50px;
+    
 }
 
-#Joke {
-
+#joke {
+    font-family: Century-gothic, sans-serif;
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
 }
