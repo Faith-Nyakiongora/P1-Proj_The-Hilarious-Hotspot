@@ -1,12 +1,10 @@
-function fetchData() {
-  fetch('https://icanhazdadjoke.com/slack')
-    .then(response => {response.json()
-    return response.json();
-    })
+fetch('https://icanhazdadjoke.com/slack')
+    .then(data => data.json())
     .then(jokeData => {
-        console.log(data.jokeData)
+        const jokeText = jokeData.attachments[0].text;
+        let jokes = document.getElementById('joke');
+        jokes.innerHTML = jokeText;
     }) 
-}
 
 // Event listeners for like, dislike, and refresh buttons
 document.getElementById("like-button").addEventListener("click", function() {

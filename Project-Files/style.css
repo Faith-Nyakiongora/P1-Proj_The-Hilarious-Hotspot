@@ -2,8 +2,8 @@ h1,p{
     text-align: center;
 }
 #like-dislike-button button:first-child {
-    background-color: #45a049;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 #like-dislike-button button:last-child {
@@ -13,7 +13,7 @@ h1,p{
 }
 
 #like-dislikte-buttons{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 
