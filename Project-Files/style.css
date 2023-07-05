@@ -18,11 +18,16 @@ h1,p{
 
 
 #joke-container {
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
     border: 1px solid #ccc;
     background-color: orange ;
-    padding: 20px;
+    
+}
+
+#page-container {
+    padding-top: 20px;
+    Background-color: darkblue;
 }
