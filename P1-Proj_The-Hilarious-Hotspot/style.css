@@ -1,4 +1,13 @@
-h1,p{
+body {
+    color: #3f3d3d;
+    font-family: 'Century-gothic', sans-serif;
+    padding: 10px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+h1,
+p{
     text-align: center;
 }
 #like-dislike-button button:first-child {
@@ -16,6 +25,14 @@ h1,p{
     margin-top: 50px;
 }
 
+button {
+    padding: 5px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
 
 #joke-container {
     width: 600px;
@@ -30,4 +47,8 @@ h1,p{
 #page-container {
     padding-top: 20px;
     Background-color: darkblue;
+}
+
+#Joke {
+
 }
