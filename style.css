@@ -12,6 +12,7 @@ body{
     background-image: url('https://images.unsplash.com/photo-1612878010854-1250dfc5000a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA1fHxmdW5ueSUyMGFuaW1hbHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
     background-size: cover; 
     background-repeat: no-repeat;
+    font-family: 'Century-gothic', sans-serif;
 }
 
 header {
@@ -156,4 +157,47 @@ button {
     background-color: #555;
   }
 
-  
+  #Contact {
+    color: #fff;
+    font-size: 18px;
+    font-family: Century-gothic, sans-serif;
+  }
+
+  #quote {
+    color: rgb(250, 245, 245);
+    font-family: Century-gothic, sans-serif;
+    text-align: center;
+
+  }
+
+/*Styling the about section*/
+
+#About {
+  background-color:rgb(163, 179, 161);;
+  padding: 5px;
+}
+
+#About .content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#About h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+#About p {
+  font-size: 19px;
+  line-height: 1.5;
+  color: rgb(66, 64, 64);
+  margin-bottom: 10px;
+
+}
+
+/* Optional: Add additional styling for emphasis */
+#About p strong {
+  color: #333;
+  font-weight: bold;
+}
