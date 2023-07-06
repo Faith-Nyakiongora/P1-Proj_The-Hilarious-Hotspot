@@ -21,7 +21,7 @@ header {
   
   nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 10px;
     padding: 0;
   }
   
@@ -42,13 +42,15 @@ p{
     text-align: center;
 }
 #like-dislike-button button:first-child {
-    background-color: #45a049;
+    background-color: #83af86;
     color: white;
+    border-radius: 10px;
 }
 
 #like-dislike-button button:last-child {
-    background-color: #FF5A5A;
+    background-color: #c76363;
     color: white;
+    border-radius: 10px;
   
 }
 
@@ -84,3 +86,40 @@ button {
     padding: 10px;
     border-radius: 5px;
 }
+
+/* Styling for comment section */
+
+#comment-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  #comment-section p {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for comment input area */
+  #comment-input {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  #submit-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #submit-button:hover {
+    background-color: #555;
+  }
