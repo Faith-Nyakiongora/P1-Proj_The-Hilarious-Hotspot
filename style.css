@@ -33,15 +33,21 @@ nav li {
     float: left;
   }
   
- nav li a {
+nav li a {
   display: block;
   color: #fff;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
   font-weight: bold;
-  display: inline 
+  display: inline ;
+  border-radius: 3px;
   }
+
+a.active,a:hover{
+  background:#70745a;
+  transition:.5s;
+}
 
 
 h1,
@@ -54,12 +60,20 @@ h3{
     color: white;
     border-radius: 10px;
 }
+#like-dislike-button button:first-child:hover {
+  background-color: green;
+  color: white;
+}
 
 #like-dislike-button button:last-child {
     background-color: #c76363;
     color: white;
-    border-radius: 10px;
-  
+    border-radius: 10px;  
+}
+
+#like-dislike-button button:last-child:hover {
+  background-color: rgb(211, 39, 39);
+  color: white;
 }
 
 button {
