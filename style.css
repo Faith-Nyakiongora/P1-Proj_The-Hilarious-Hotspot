@@ -43,10 +43,6 @@ nav li {
   display: inline 
   }
 
-  .active {
-    background-color: #04AA6D;
-  }
-  
 
 h1,
 h3{
@@ -78,14 +74,12 @@ button {
 
 #joke-container {
     width: 45%;
-    height: 45%;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
     border: 1px solid #ccc;
-    background-color: rgb(233, 203, 148) ;
-
-    
+    background-color: rgb(233, 203, 148) ;  
+      
 }
 
 #page-container {
