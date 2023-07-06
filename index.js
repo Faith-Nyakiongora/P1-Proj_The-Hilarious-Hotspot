@@ -1,14 +1,21 @@
-fetch('https://icanhazdadjoke.com/slack')
-    .then(data => data.json())
-    .then(jokeData => {
-        const jokeText = jokeData.attachments[0].text;
-        let jokes = document.getElementById('joke');
-        jokes.innerHTML = jokeText;
-    }) 
-    
-    .catch(error => {
+function fetchJoke() {
+    fetch('https://icanhazdadjoke.com/slack')
+      .then(response => response.json())
+      .then(data => {
+        const jokeText = data.attachments[0].text;
+        const jokeElement = document.getElementById('joke');
+        jokeElement.textContent = jokeText;
+      })
+      .catch(error => {
         console.error("Error fetching joke:", error);
-    });
+      });
+  }
+  
+  // Generate a joke on page load
+  document.addEventListener("DOMContentLoaded", fetchJoke);
+  
+  // Event listener for the dislike button
+  document.getElementById("dislike-button").addEventListener("click", fetchJoke);
 
 // Event listeners for like, dislike, and refresh buttons
 document.getElementById("like-button").addEventListener("click", function() {
