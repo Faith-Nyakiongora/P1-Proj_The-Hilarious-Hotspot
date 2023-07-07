@@ -23,8 +23,14 @@ Leave your comments in the provided text area and click the "Submit" button to s
 Refresh the page or click the "Dislike" button to fetch and display a new joke.
 Navigate through the navigation menu (Home, About, Contact) to explore other sections of the website.
 
+you can also find a live demonstration via this link https://faith-nyakiongora.github.io/P1-Proj_The-Hilarious-Hotspot/
 
 
+## Author
 
+Faith Nyakiongora
+
+# License
+This project is licensed under the MIT License
 
 
