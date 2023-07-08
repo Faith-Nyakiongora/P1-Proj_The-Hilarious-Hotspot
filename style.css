@@ -95,7 +95,8 @@ button {
     border: 1px solid #ccc;
     background-color: rgb(233, 203, 148) ;  
     margin-top: -30px;  
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
+     
 }
 
 #page-container {
@@ -108,7 +109,7 @@ button {
 }
 
 .img-container img {
-  width: 65%;
+  width: 80%;
   height: auto;
 }
 
