@@ -102,6 +102,15 @@ button {
     margin: 50px;
     
 }
+.img-container {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-container img {
+  width: 30%;
+  height: auto;
+}
 
 .user-comments {
   margin-top: 20px;
