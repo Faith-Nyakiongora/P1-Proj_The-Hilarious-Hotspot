@@ -5,11 +5,23 @@ function fetchJoke() {
         const jokeText = data.attachments[0].text;
         const jokeElement = document.getElementById('joke');
         jokeElement.textContent = jokeText;
-      })
-      .catch(error => {
-        console.error("Error fetching joke:", error);
-      });
+
+        fetch('https://meme-api.com/gimme')
+        .then(response => response.json())
+        .then(memeData => {
+            const memeUrl = memeData.url;
+            const memeContainer = document.querySelector('.img-container');
+            memeContainer.innerHTML = `<img src="${memeUrl}" alt="Meme">`;
+        })
+        .catch(error => {
+            console.error("Error fetching meme:", error);
+        });
+   })
+   .catch(error => {
+    console.error("Error fetching joke:", error);
+  });
   }
+
   
   // Generate a joke on page load
   document.addEventListener("DOMContentLoaded", fetchJoke);
