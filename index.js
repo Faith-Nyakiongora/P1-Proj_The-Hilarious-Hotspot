@@ -60,3 +60,4 @@ submitButton.addEventListener('click', function() {
   // Clear the input field
   commentInput.value = '';
 })
+

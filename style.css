@@ -109,8 +109,14 @@ button {
 }
 
 .img-container img {
-  width: 80%;
+  width: 50%;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .img-container img {
+      width: 80%;
+  }
 }
 
 .user-comments {
