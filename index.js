@@ -20,6 +20,7 @@ function fetchJoke() {
    .catch(error => {
     console.error("Error fetching joke:", error);
   });
+  
   }
 
   
