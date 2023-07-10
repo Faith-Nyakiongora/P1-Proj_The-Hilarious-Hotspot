@@ -1,11 +1,11 @@
 # The Hilarious Hotspot
 
 # Description
-The Hilarious Hotspot is a web application that provides users with a daily dose of humor through jokes. The user can interact with the web app by liking or disliking the joke and also interact by leaving comments. 
+The Hilarious Hotspot is a web application that provides users with a daily dose of humor through jokes and memes. The user can interact with the web app by liking or disliking the joke and meme and also interact by leaving comments. 
 
 ## Features
-Fetches a random joke from the "icanhazdadjoke" API and displays it on the webpage.
-Allows users to like and dislike the jokes. If the user dislikes a joke an new one is generated.
+Fetches a random joke from the "icanhazdadjoke" API and a random meme form meme-api.com and displays it on the webpage.
+Allows users to like and dislike the jokes and memes. If the user dislikes a an new joke and meme is generated.
 Provides a comment section for users to leave their comments.
 Offers aa responsive and mobile-friendly design.
 
@@ -14,7 +14,7 @@ Offers aa responsive and mobile-friendly design.
 -CSS
 -JavaScript
 
-# How to load and use
+## How to load and use
 Clone or download the repo to your local machine.
 Open the "index.html" file in your preferred web browser.
 The webpage will load with a random joke already displayed.
@@ -30,7 +30,7 @@ you can also find a live demonstration via this link https://faith-nyakiongora.g
 
 Faith Nyakiongora
 
-# License
-This project is licensed under the MIT License
+## License
+This project is licensed under the [MIT License](LICENSE)
 
 
